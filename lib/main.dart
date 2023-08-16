@@ -114,7 +114,7 @@ class MyApp extends StatelessWidget {
                       isInverted: true,
                       icon: Icons.euro_outlined),
                   Transform.translate(
-                    offset: (const Offset(0, -20)),
+                    offset: (Offset(0, -20)),
                     child: const CurrencyCard(
                         name: 'BTC',
                         code: 'Bitcoin',
@@ -123,7 +123,7 @@ class MyApp extends StatelessWidget {
                         icon: Icons.currency_bitcoin_outlined),
                   ),
                   Transform.translate(
-                    offset: (const Offset(0, -40)),
+                    offset: (Offset(0, -40)),
                     child: const CurrencyCard(
                         name: 'USE',
                         code: 'Dollar',
